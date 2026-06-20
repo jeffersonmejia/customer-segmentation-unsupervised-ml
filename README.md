@@ -18,7 +18,7 @@ Se aplica **K-Means**, un algoritmo de *clustering* que agrupa observaciones sim
 
 1. Se generan 120 clientes sintéticos con cuatro perfiles de edad, ingreso y gasto.
 2. Se estandarizan las tres variables con `StandardScaler`.
-3. Se ajustan modelos K-Means para valores de `k` entre 2 y 6.
+3. Se ajustan modelos K-Means para valores de `k` entre 2 y 10.
 4. Se calcula la inercia de cada modelo y se representa el método del codo.
 5. Se obtiene `k_optimo` mediante la distancia máxima de cada punto a la recta entre los extremos de la curva.
 6. Se ajusta el modelo final con `k_optimo`, `n_init=20` y `random_state=42`.
