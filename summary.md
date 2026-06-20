@@ -1,6 +1,6 @@
 # Resumen segmentación de clientes con K-Means
 
-En en el presente trabajo se realizó una segmentación de clientes mediante K-Means, un algoritmo de aprendizaje no supervisado. El propósito fue descubrir grupos de clientes con características parecidas sin contar previamente con una etiqueta que indicara a qué grupo pertenecía cada persona. Para formar los segmentos se tomaron en cuenta tres variables: la edad, el ingreso mensual y el gasto mensual. Esta clasificación puede servir como punto de partida para diseñar campañas, promociones o estrategias de fidelización adaptadas a diferentes tipos de clientes.
+En el presente trabajo se realizó una segmentación de clientes mediante K-Means, un algoritmo de aprendizaje no supervisado. El propósito fue descubrir grupos de clientes con características parecidas sin contar previamente con una etiqueta que indicara a qué grupo pertenecía cada persona. Para formar los segmentos se tomaron en cuenta tres variables: la edad, el ingreso mensual y el gasto mensual. Esta clasificación puede servir como punto de partida para diseñar campañas, promociones y estrategias de fidelización adaptadas a diferentes tipos de clientes.
 
 El primer paso fue importar las librerías necesarias. NumPy se utilizó para generar los valores numéricos, pandas para organizar y analizar los datos, Matplotlib para elaborar los gráficos y scikit-learn para aplicar `StandardScaler` y el algoritmo `KMeans`. También se definieron colores y estilos comunes para que las visualizaciones fueran claras y mantuvieran una presentación uniforme.
 
